@@ -77,14 +77,13 @@
           "options": {
             "browserTarget":"cybercode:build",
             "proxyConfig": "proxy.conf.json"
-        },
+          },
           "configurations": {
             "production": {
               "browserTarget": "cybercode:build:production"
             },
             "development": {
-              "browserTarget": "cybercode:build:development",
-              "proxyConfig": "proxy.conf.json"
+              "browserTarget": "cybercode:build:development"
             }
           },
           "defaultConfiguration": "development"

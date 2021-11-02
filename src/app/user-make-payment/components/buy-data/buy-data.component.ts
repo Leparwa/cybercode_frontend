@@ -31,7 +31,9 @@ export class BuyDataComponent implements OnInit {
   }
 
   getToken(){
-    this.mpesaService.getToken()
+    this.mpesaService.getDarajaDeveloperToken().subscribe((res)=>{
+      console.log(res)
+    })
   }
 }
 
