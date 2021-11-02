@@ -1,0 +1,9 @@
+{
+    "/cybercode/*": {
+        "target": "https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials",
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug"
+       
+    }
+}
